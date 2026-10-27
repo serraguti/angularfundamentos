@@ -1,0 +1,9 @@
+.par{
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.impar {
+    background-color: lightsalmon;
+    font-weight: bold;
+}
