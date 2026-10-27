@@ -1,0 +1,31 @@
+<h1>Directivas</h1>
+
+<h2 style="color: blue">
+    Tienes {{deportes.length}} deportes
+</h2>
+
+@if (deportes.length > 5){
+    <p>Tienes más de 5 deportes!!!</p>
+}@else {
+    <p>Tienes menos de 5 deportes......</p>
+}
+
+<select>
+    @for (sport of deportes; track sport){
+        <option>{{sport}}</option>
+    }
+</select>
+
+<ul>
+    @for (sport of deportes; track sport){
+        <li>{{sport}}</li>
+    }
+</ul>
+
+@for (sport of deportes; track sport){
+    <h2>{{sport}}</h2>
+}
+
+
+
+
