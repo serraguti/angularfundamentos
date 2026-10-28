@@ -1,0 +1,9 @@
+<h1>Form saludo</h1>
+<form #formsaludo="ngForm">
+    Introduzca su nombre: 
+    <input type="text" name="cajanombre" #cajanombre/>
+    <button (click)="mostrarSaludo()">
+        Mostrar saludo
+    </button>
+</form>
+<h2 style="color:blue">{{mensaje}}</h2>

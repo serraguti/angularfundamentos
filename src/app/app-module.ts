@@ -8,6 +8,9 @@ import { EventosComponent } from './components/eventoscomponent/eventoscomponent
 import { DirectivasComponent } from './components/directivascomponent/directivascomponent';
 import { NumerosEstilosComponent } from './components/numerosestiloscomponent/numerosestiloscomponent';
 import { TestComponent } from './components/test-component/test-component';
+import { FormsModule } from '@angular/forms';
+import { FormSaludoComponent } from './components/form-saludo-component/form-saludo-component';
+import { FormDobleComponent } from './components/form-doble-component/form-doble-component';
 
 @NgModule({
   declarations: [
@@ -18,8 +21,10 @@ import { TestComponent } from './components/test-component/test-component';
     DirectivasComponent,
     NumerosEstilosComponent,
     TestComponent,
+    FormSaludoComponent,
+    FormDobleComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
 })
