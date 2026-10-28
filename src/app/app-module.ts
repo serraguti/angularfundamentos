@@ -7,20 +7,20 @@ import { SegundoComponent } from './components/segundocomponent/segundocomponent
 import { EventosComponent } from './components/eventoscomponent/eventoscomponent';
 import { DirectivasComponent } from './components/directivascomponent/directivascomponent';
 import { NumerosEstilosComponent } from './components/numerosestiloscomponent/numerosestiloscomponent';
+import { TestComponent } from './components/test-component/test-component';
 
 @NgModule({
   declarations: [
-    App, PrimerComponent, SegundoComponent
-    , EventosComponent, DirectivasComponent
-    , NumerosEstilosComponent
+    App,
+    PrimerComponent,
+    SegundoComponent,
+    EventosComponent,
+    DirectivasComponent,
+    NumerosEstilosComponent,
+    TestComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-  ],
-  bootstrap: [App]
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [provideBrowserGlobalErrorListeners()],
+  bootstrap: [App],
 })
-export class AppModule { }
+export class AppModule {}
