@@ -11,6 +11,7 @@ import { TestComponent } from './components/test-component/test-component';
 import { FormsModule } from '@angular/forms';
 import { FormSaludoComponent } from './components/form-saludo-component/form-saludo-component';
 import { FormDobleComponent } from './components/form-doble-component/form-doble-component';
+import { SumarNumerosComponent } from './components/sumar-numeros-component/sumar-numeros-component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FormDobleComponent } from './components/form-doble-component/form-doble
     TestComponent,
     FormSaludoComponent,
     FormDobleComponent,
+    SumarNumerosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [provideBrowserGlobalErrorListeners()],
