@@ -13,6 +13,7 @@ import { FormSaludoComponent } from './components/form-saludo-component/form-sal
 import { FormDobleComponent } from './components/form-doble-component/form-doble-component';
 import { SumarNumerosComponent } from './components/sumar-numeros-component/sumar-numeros-component';
 import { FormNombresArrayComponent } from './components/form-nombres-array-component/form-nombres-array-component';
+import { FormNumerosComponent } from './components/form-numeros-component/form-numeros-component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FormNombresArrayComponent } from './components/form-nombres-array-compo
     FormDobleComponent,
     SumarNumerosComponent,
     FormNombresArrayComponent,
+    FormNumerosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [provideBrowserGlobalErrorListeners()],
