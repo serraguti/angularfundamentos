@@ -1,1 +1,16 @@
-<p>form-numeros-component works!</p>
+<h1>Form numeros</h1>
+<form form="ngForm">
+    Número: 
+    <input type="number" name="cajanumero" #cajanumero/>
+    <button (click)="insertarNumero()">
+        Insertar
+    </button>
+</form>
+<ul>
+    @for (numero of arrayNumeros; track numero){
+        <li [ngClass]="{
+            positivo: numero > 0,
+            negativo: numero < 0
+        }">{{numero}}</li>
+    }
+</ul>
